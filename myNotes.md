@@ -139,3 +139,46 @@ Home page: index.html
 Most commonly used Atom keyboard shortcuts:
 https://github.com/nwinkler/atom-keyboard-shortcuts
 Take a look at the commands.
+
+Create boilerplate (a code template that can be reused) code, we use the Emmet plugin we can write html and hit Enter key. If that don't work try the tab key after writing HTML,
+or typing an exclamation Mark then the tab or enter key.
+
+The code:
+The Document Type tells us which version of HTML we are using. We working with HTML5. Render this file as an HTML5 document.
+The head tells the browser how it should handle the page i.e. tells the broswers what the is title of this particular document/page.
+Open my site inside Chrome to see the title of my site: Chrome -> inspect -> Elements: open-up the header tag and its here.
+
+The meta element is called character set and setting it to UTF-8. The meta element gives extra meta data or associated data to my HTML document.
+We are telling the browser when it opens up this file all the text inside our webpage is encoded using the UTF-8 encoding system.
+UTF-8 is standard as it includes all the international symbols including the emoji characters: https://unicode-table.com/en/sets/heart-symbols/
+The symbol will show up on browser like a favicon.
+Other meta elements/tags include description, keywords, author and viewport. These meta tags tell the browser how it should render or display the
+the webpage and they give info to search engines about the content of the website.
+
+L15. How to Structure Text in HTML:
+
+Now working on the <body> section.
+Formatting indents: Packages -> Atom Beautify -> Beautify
+
+italicisze html mdn:
+It's best to use <em> instead of <i> italic as it can conveys more info and not just about the style.
+Emphasis vs. Strong tags:
+<b> bold tag, but should use the <strong> strong tag.
+
+Horizontal rule: type hr + Enter key.
+
+L16. HTML Lists:
+bullet list: <ul> unordered list.
+Ordered lists: <ol> number list.
+
+L17. HTML Images Elements:
+
+incorporate images to my CV website:
+image stored locally. Put my photo inside of the same working folder and refer to it inside of my source code.
+Attributes we can use to my image elements.
+
+L18. HTML Links and Anchor Tags:
+
+HTML = HyperTextMarkup Language.
+HyperText
+continue from 0:47
