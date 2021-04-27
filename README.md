@@ -21,9 +21,9 @@ I am also using this course for reference whilst on my current project within my
 
 
 
-## To Run Web Apps
+## To Run This Web App Locally
 
-To run most of my website applications developed from this course, you simple double click on the index.html (homepage) file and it will open in your default browser. 
+To run most of my website applications developed from this course, you simple double click on the index.html (homepage) file and it will open in your default browser. If you wish to simply view this cv website from the frontend: https://vanessatsang888.github.io/myCV-Website/ 
 
 ### Langugaes, Frameworks, libraries and tools:
 
@@ -35,7 +35,7 @@ Tools: GitHub Pages and more.
 
 My CV Website Application: https://vanessatsang888.github.io/myCV-Website/
 
-In developing this app I have reinforced my HTML5 learning from summer 2019 because so far I have used some of the core HTML5 concepts to develop this app. Next up is to use CSS2/3 to add some styling to my CV web app. Then I will add some JavaScritp to apply the behaviour to this app.
+In developing this app I have reinforced my HTML5 learning from summer 2019 because so far I have used some of the core HTML5 concepts to develop this app. Next up is to use CSS2/3 (with Bootstrap) to add some styling to my CV web app. Then I will add some JavaScritp to apply the behaviour to this app.
 
 
 
