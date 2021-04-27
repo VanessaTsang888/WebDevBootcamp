@@ -14,7 +14,7 @@ I had purchased this course from the Udemy training platform as it has had recen
 
 The purpose of studying this course are as follows:
 
-Years ago, I have used HTML and CSS and within a commerical setting. However, since then there has been some development with these languages. This course will not only refresh my memory of HTML and CS but get me up to speed with HTML5 in particular. Altough I have had training in HTML5 and a little training on Bootstrap some years ago, with this course I will get to learn the latest updates with version of HTML5 and the latest version of Bootstrap. Once I have completed all sections on HTML5, CSS2/3, Bootstrap and JavaScript, I will develop my own portfolio website using those languages and framework (Bootstrap).
+Years ago, I have used HTML and CSS and within a commerical setting. However, since then there has been some development with these languages. This course will not only refresh my memory of HTML and CSS but get me up to speed with HTML5 in particular. Altough I have had training in HTML5 and a little training on Bootstrap some years ago, with this course I will get to learn the latest updates with the latest version of HTML5 and the latest version of Bootstrap. Once I have completed all sections on HTML5, CSS2/3, Bootstrap and JavaScript, I will develop my own portfolio website using those languages and framework (Bootstrap).
 
 I am also using this course for reference whilst on my current project within my full time job as although my focus is frontend development, there are times when there isn't any frontend tickets left for me to take and I need to take a backend ticket from our Jira scrum board.
 

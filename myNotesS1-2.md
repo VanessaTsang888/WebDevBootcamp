@@ -180,5 +180,18 @@ Attributes we can use to my image elements.
 L18. HTML Links and Anchor Tags:
 
 HTML = HyperTextMarkup Language.
-HyperText
-continue from 0:47
+HyperText: most important part.
+
+// The href is the important part as its the HTML Attribute.
+// The 'a' is the HTML element
+// The https is the Link Destination.
+// Between the open and close tag is the Link Text which is what will get rendered to the screen. So when the user see this word they know it will take them
+// to this destination.
+<a href="https://example.com">Hello</a>
+
+To create a link to link to a different page within same site:
+I created a link in the homepage that will take users to the hobbies page. The hobbies file is currently in the same folder. However, if in future the hobbies files
+gets moved into a different folder then I need to specify a path to it, i.e. ../xxx/hobbies.html
+
+Challenge: create a Contact page and link it to the homepage: contact-me.html
+Linked the homepage to this new page with h1: My Contact Details.
