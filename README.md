@@ -1,6 +1,6 @@
 # The Complete 2021 Web Development Bootcamp
 
-26-04-2021:
+This file was updated on 26-04-2021:
 
 (https://www.udemy.com/course/the-complete-web-development-bootcamp)
 
@@ -21,30 +21,21 @@ I am also using this course for reference whilst on my current project within my
 
 
 
-## Available Scripts
+## To Run Web Apps
 
-For most of the web apps i develop during this course, node modules is needed to be installed using the below command:
+To run most of my website applications developed from this course, you simple double click on the index.html (homepage) file and it will open in your default browser. 
 
-### `npm --install`
+### Langugaes, Frameworks, libraries and tools:
 
-Then inside of the project directory, you will need the start the application using the below command:
+Languages: HTML5, CSS2/3, Bootstrap, JavaScript ES6 and more.
 
-### `npm start`
+Tools: GitHub Pages and more.
 
-This commands runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Projects I have developed so far:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+My CV Website Application: https://vanessatsang888.github.io/myCV-Website/
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### Frameworks, libraries and tools:
-
-See indivdual web application. The IDE that I am using on this course is Atom: https://atom.io/
+In developing this app I have reinforced my HTML5 learning from summer 2019 because so far I have used some of the core HTML5 concepts to develop this app. Next up is to use CSS2/3 to add some styling to my CV web app. Then I will add some JavaScritp to apply the behaviour to this app.
 
 
 

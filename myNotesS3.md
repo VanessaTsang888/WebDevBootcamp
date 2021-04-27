@@ -69,6 +69,12 @@ The below dose some basic validation:
 Popup box with this message will appear if user don't include @ symbol:
 ! Please include an '@' in the email address.
 
+L27. Publish Your Website!
+
+Host my website on GitHub Pages: https://pages.github.com/
+[my username].github.io
+VanessaTsang888.github.io
+
 
 
 
