@@ -39,6 +39,39 @@ This is not a great idea but ok for learning tables, table rows, table data...
 L25. HTML Forms:
 Add to my webpage to collect data from my users.
 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+    To allow users to provide their contact details to me. I can design the form and can structure it.
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input  
+    There are lots of different types of inputs: text, submit, button, checkbox, label etc
+    Password input: use a input label before it. The user's input will be masked with dots.
+
+Summary:
+
+We use a form tag to define what should go in our form. For it to do anything, you need two important elements, the <lable> and the <input>
+Define the input type by using the type attribut, i.e. text for text box. Other types include: file which allows the user to upload a file,
+date picker, radio button, or a range (slider).
+
+L26. Forms in Practice - Create a Contact Me Form:
+
+<form class="" action="mailto:info@vantaidesign8@gmail.com" method="post">
+When user pres submit button, "mailto:info" part will open up the user's default mail client, puts in the email address I specify after the colon.
+The post means its going to transfer what the user types into the email client.
+
+input elements: I must fill-in the name attribute within each input element so it knows how to classify each bit of the data i.e. yourName,
+yourEmail, yourMessage etc
+
+
+The below dose some basic validation:
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value=""><br>
+
+Popup box with this message will appear if user don't include @ symbol:
+! Please include an '@' in the email address.
+
+
+
+
 
 
 

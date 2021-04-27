@@ -1,7 +1,6 @@
 <!--
 
-My Contact Page
-
+My Contact Page with a form
 
  -->
 
@@ -18,5 +17,50 @@ My Contact Page
     <p><strong>GitHub</strong>: <a href="https://github.com/VanessaTsang888">/VanessaTsang888</a></p>
     <p><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/vanessa-tai-tsang/">/vanessa-tai-tsang</a></p>
     <p><strong>Phone</strong>: <a href="tel:+447867840561">07867 840561</a></p>
+    <hr>
+    <!-- 
+    L25. HTML Form:
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+    To allow users to provide their contact details to me. I can design the form and can structure it.
+    Then I need to specify the behaviour of the form using JS.  
+
+    -->
+    <h3>Send me a message here</h3>
+    <p>I aim to reply to your message within 1-2 working days.</p>
+<form action="mailto:vantaidesign8@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="yourName" value=""><br>
+
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value=""><br>
+
+    <label for="telNo">Phone number:</label>
+    <input id="telNo" name="yourTelNo" type="tel"><br>
+
+    <label>Your Message:</label><br>
+    <textarea name="yourMessage" cols="30" rows="10"></textarea><br>
+
+    <input type="submit" name="name">
+
+    <h4>Please select your preferred contact method:</h4>
+    <div>
+      <input type="radio" id="contactChoice1" name="contactEmail" value="email">
+      <label for="contactChoice1">Email</label>
+
+      <input type="radio" id="contactChoice2" name="contactPhone" value="phone">
+      <label for="contactChoice2">Phone</label>
+
+      <input type="radio" id="contactChoice3" name="contactMail" value="mail">
+      <label for="contactChoice3">Mail</label>
+    </div>
+
+
+</form>
+
+
+
+
+
+
   </body>
 </html>
