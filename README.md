@@ -23,7 +23,9 @@ I am also using this course for reference whilst on my current project within my
 
 ## To Run This Web App Locally
 
-To run most of my website applications developed from this course, you simple double click on the index.html (homepage) file and it will open in your default browser. If you wish to simply view this cv website from the frontend: https://vanessatsang888.github.io/myCV-Website/ 
+To run most of my website applications developed from this course, you simple double click on the index.html (homepage) file and it will open in your default browser.
+
+If you wish to simply view this cv website from the frontend: https://vanessatsang888.github.io/myCV-Website/ 
 
 ### Langugaes, Frameworks, libraries and tools:
 
