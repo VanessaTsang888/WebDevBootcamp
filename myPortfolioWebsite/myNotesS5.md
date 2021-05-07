@@ -1,96 +1,11 @@
-SECTION 4: INTRODUCTION TO CSS:
 
-L30. Intro to CSS: Cascading Style Sheets:
+SECTION 5: INTERMEDIATE CSS:
 
-L31. Inline CSS:
+L41. WHAT WE'LL MAKE - STYLISED PERSONAL SITE:
+My Portfolio Website:
 
-index.html -> inject a little css into the open body tag, change its bg color.
-https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
-
-Can also use hex values #
-Color Palettes: https://colorhunt.co/
-
-https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
-
-Change the style of the horizontal rules:
-
-L33. Internal CSS:
-How to apply css across my entire webpage (rather than in-line styling as per last lecture).
-
-Search: browser default CSS:
-https://www.w3schools.com/cssref/css_default_values.asp
-
-All these elements has default css values applied by my browser. For the hr:
-display: block;
-margin-top: 0.5em;
-margin-bottom: 0.5em;
-margin-left: auto;
-margin-right: auto;
-border-style: inset;
-border-width: 1px;
-
-I can over-ride the default value by specifying that I want just a single line without a border that is white in color:
-
-CHALLENGE:
-Make my hr to just dots as per sean halpin website:
-width is 10 of the page.
-
-border-style: dotted;
-When I specify the border style, when 2 values are specified, the first style applies to the top and bottom, the second to the left and right.
-When 3 values are specified, the first style applies to the top, the second to the left and right, the third to the bottom.
-
-Now that I have changed the background and hr to how I want it to look. The problem is that, its not done the same to my other pages, Achievements, Hobbies and Interests, and Contact Me. I need a single location where when I change some css there then everything gets reflected across my site in all my pages.
-
-L34. External CSS:
-
-<link rel="stylesheet" href="css/styles.css">
-my styles.css is on same level as my index.html
-this is why I dont needa a forward slash before the css: css/styles.css
-
-  <link rel="stylesheet" href="css/styles.css">
-
-This link tag must be on all subpages within the head element.
-
-L35. How to Debug CSS Code:
-
-I'm come back to this after my interview with one of our customers.
-
-L36. The Anathomy of CSS Syntax.
-The grammar of the CSS language.
-
-L37. CSS Selectors:
-
-Tag Selectors:
-  h1, img etc
-    h1 { color: red; }
-
-Class Selectors:
-  .bacon { background-color: green; }
-
-ID Selectors:
-  #heading
-
-L38. Classes vs. Ids:
-
-Id is unquic and can only be used once per page: h1 -> we would only have x1 Heading 1 per page or one navbar per page.
-I can have multiple classes per element, i.e. I want to make the broccoli image circular from a square:
-  <img class="broccoli circular" src="">
-    .broccoli { background-color: red; }
-    .circular { border-radius: 100% }
-
-This can't be done for IDs. Think very carefully before using IDs.
-
-Pseudo Class Selector:
-https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
-  There are many Pseudo classes. They always start with a colon, i.e. :active or a:hover
-  as HTML elements can have different states, i.e. when I hover over an element like an image, that's actually a different state. I can get
-  the css to change based on the state i.e. hovering over or not hovering over by using these pseudo classes.
-
-When img are hovered over or moused over, the background colour will change to yellow: using pseudo class of :hover
-  img:hover {
-    background-color: gold;
-  }
-
+I aim to change my site to look like this: seanhalpin.io
+Sean has drastically changed his website now. It did look like the screenshot I've done and now in the screenshots folder.
 
 L42. What Are Favicons:
 Favourit icon -> display next to my website title.
@@ -137,7 +52,38 @@ L45. CSS Display Property:
 Four different values: Block, Inline, Inline-Block, None.
   Block: 
 
-2:55
+L45. CSS Display Property:
+
+The <p> is a block element.
+<p>A Programmer</p>
+What is I want to style the 'Pro' part of the word 'Programmer' differently? How can I target one part of the <p> , i.e. underline the 'Pro' ?
+We use the span HTML element and give it a class of 'pro'. Then in our sytles.css file we can target that 'pro' and style it:
+index.html :
+<p> A <span class="pro">Pro</span>grammer.</p>
+
+styles.css:
+  .pro {
+    text-declaration: underline;
+  }
+
+  The span's like div's don't do every much unless used in conjunction with css.
+
+Common Inline Elements:
+They do not block other elements from appearing on the same line, they encourage them to.
+
+1. Spans <span>
+2. Images <img>
+3. Anchors <a>
+
+Spans can be nested inside <p> etc. They have them as stand alones and give it a bg colour.
+
+
+
+
+
+
+
+
 
 
 
