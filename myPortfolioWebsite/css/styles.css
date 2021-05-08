@@ -1,13 +1,38 @@
 body {
     margin: 0;
+    text-align: center;
 }
+
+/* 
+To center an element:
+If its a block element and has a width set, then will need to center it using the auto value within the maargin:
+The top and bottom needs to be 0, the left and right needs to be auto (circle short hand):     margin: 0 auto;
+
+ */
+
+ body {
+     margin: 0;
+     text-align: center;
+     font-family: 'Merriweather', serif;
+ }
 
 h1 {
     margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .top-container {
     background-color: #d6efc7;
+    position: relative;
+    padding-top: 100px;
 }
 
 .middle-container {
@@ -16,8 +41,28 @@ h1 {
     height: 200px;
 }
 
+/* This is the parent */
 .bottom-container {
     background-color: blue;
     width: 200px;
     height: 200px;
 }
+
+.cyber {
+    text-decoration: underline;
+}
+
+/* Take this element out of its flow by changing it to absolute */
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+/* This will move the bottom cloud from next to the mountain to the middle-left of the screen */
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+

@@ -14,7 +14,7 @@ My Contact Page with a form
   </head>
   <body>
     <div>
-      <table>
+      <table cellspacing="20">
         <tr>
           <td>
             <a href="hobbies.html">Achievements, Hobbies and Interests</a>
@@ -28,12 +28,39 @@ My Contact Page with a form
     <br>
   
     <h1>My Contact Details</h1>
-    <p><strong>Address</strong>: Dursley, Gloucestershire, England</p>
-    <p><strong>Email</strong>: vantaidesign8@gmail.com</p>
-    <p><strong>GitHub</strong>: <a href="https://github.com/VanessaTsang888">/VanessaTsang888</a></p>
-    <p><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/vanessa-tai-tsang/">/vanessa-tai-tsang</a></p>
-    <p><strong>Phone</strong>: <a href="tel:+447867840561">07867 840561</a></p>
+    <table cellspacing="20">
+      <tr>
+        <td>
+          <strong>Address</strong>: Dursley, Gloucestershire.
+        </td>
+        <td>
+          <strong>GitHub</strong>: <a href="https://github.com/VanessaTsang888">/VanessaTsang888</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <strong>Email</strong>: vantaidesign8@gmail.com
+        </td>
+        <td>
+          <strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/vanessa-tai-tsang/">/vanessa-tai-tsang</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <strong>Phone</strong>: <a href="tel:+447867840561">07867 840561</a>
+        </td>
+        <td>
+          <strong>CV Website</strong>: <a href="https://vanessatsang888.github.io/myCV-Website/">/vanessatsang888.github.io/myCV-Website/</a>
+        </td>
+      </tr>
+    </table>
+    <br>
     <hr>
+
+
+
     <!-- 
     L25. HTML Form:
     https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
@@ -42,7 +69,8 @@ My Contact Page with a form
 
     -->
     <h3>Send me a message here</h3>
-    <p>I aim to reply to your message within 1-2 working days.</p>
+    <p>Any questions or feedback is welcome. Use the below contact form to send me a message.</p>
+    <p>I aim to reply to your message within one to two working days.</p>
 <form action="mailto:vantaidesign8@gmail.com" method="post" enctype="text/plain">
     <label>Your Name:</label>
     <input type="text" name="yourName" value=""><br>
@@ -58,7 +86,7 @@ My Contact Page with a form
 
     <input type="submit" name="name">
 
-    <h4>Please select your preferred contact method:</h4>
+    <h5>Please select your preferred contact method:</h5>
     <div>
       <input type="radio" id="contactChoice1" name="contactEmail" value="email">
       <label for="contactChoice1">Email</label>

@@ -20,12 +20,13 @@ To create a gap between img and text I need to add some cellspacing to the table
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
+<!-- Change this nav section from using HTML table to CSS Positioning (relative and absolute) -->
 <body>
   <div>
     <table>
       <tr>
         <td>
-          <a href="hobbies.html">Achievements, Hobbies and Interests</a>
+          <a href="hobbies.html">Achievements, Hobbies and Interests</a> <br>
         </td>
         <td>
           <a href="contact-me.html">Contact Me</a>
@@ -33,39 +34,36 @@ To create a gap between img and text I need to add some cellspacing to the table
       </tr>
     </table>
   </div>
-  <br>
 
-  <table cellspacing="20">
-    <tr>
-      <td>
-        <img src="images/profilePicVanCircleCrop.png" alt="Vanessa Yuk Tai Tsang profile photo">
-      </td>
+  <!-- 
+    S5 Intermediate CSS: L45 -L48: Using CSS Positioning to layout my profile image and the text (name, job title etc) next to it on the right.
+  -->
 
-      <td>
-        <h1>Vanessa (Yuk Tai) TSANG</h1>
-        <p> <strong> Junior Software Engineer</strong> with approximately two years experience working within <em>Cyber Security & Intelligence</em> gained from working at <strong><a href="https://www.raytheon.com/uk">Raytheon UK</a></strong>.</em></p>
-        <p>UK Citizen. Full UK and clean driving license.</p>
-        <p><strong>Clearances:</strong> SC cleared and NPPV3 (Non Police Personnel Vetting Level 3) cleared.</p>
+<div class="top-container">
+  <img class="proPic" src="images/profilePicVanCircleCrop.png" alt="Vanessa Yuk Tai Tsang profile photo">
+  <div class="perDetails">
+  <h1>Vanessa (Yuk Tai) TSANG</h1>
+      <p class="jobTitle"><strong> Junior Software Engineer</strong></p>
+      <p><strong>UK Citizen</strong>. Full UK and clean driving license. <strong>Clearances:</strong> SC cleared and NPPV3 (Non Police Personnel Vetting Level 3) cleared.</p>
+   </div>
+</div>
 
-      </td>
-    </tr>
-  </table><br>
   <hr><br>
 
   <h3>Personal Profile</h3>
-  <p>A highly motivated Junior Software Engineer working within <strong>Cyber Security & Intelligence</strong> for a defence contractor in Gloucester, England. I have commerial experience in software development, software security and test deiven development.</p>
-  <p>Languages, frameworks used during training and projects include HTML5, CSS2/3, <strong>JavaScript ES6, React.js</strong> with TypeScript. Used Git source control via the Bash terminal.</p>
-  <p>Working within an Agile Scrum development team collaborating and contributing new ideas to drive continuous improvements and using my analytical skills to solve problems.</p>
-  <p>I have a deep passion 💖 for software development, cyber security and cloud computing - AWS and Azure.</p><br>
+  <p>A highly motivated <strong>Junior Software Engineer</strong> with approximately two years experience working within <a href="https://www.raytheon.com/uk/capabilities/raytheon-in-the-uk/cyber">Cyber Security & Intelligence</a> gained from working at <strong><a href="https://www.raytheon.com/uk">Raytheon UK</a></strong>, England. I have commercial experience in software development, software security and test driven development (TDD).</p>
+  <p>Languages, frameworks used during training and projects include HTML5, CSS2/3, <em>JavaScript ES6, React.js</em> with TypeScript. Used Git source control via the Bash terminal.</p>
+  <p>Worked within Agile Scrum development teams collaborating and contributing new ideas to drive continuous improvements and used my analytical skills to solve problems.</p>
+  <p>I have a deep passion 💖 for TDD: testing for clean code, cyber security and cloud computing: <a href="https://aws.amazon.com/">AWS</a> and <a href="https://azure.microsoft.com/en-gb/">Azure</a>.</p><br>
   <hr><br>
 
   <h3>Key Skills</h3>
   <p>Languages: bilingual in English and Chinese (dialects include Hakka and Cantonese).</p>
-  <p>One year and ten months of experience in Cyber Security within the defence industry, developing software within Ageile Scrum teams. Completed the Women in Cyber Acadmeny with QA Training for the first 3 months.</p>
-  <p>Over six years of commericial experience in UX Design, Responsive Web Design (with web accessibility and usability) and Graphic Design.</p>
-  <p><strong>Languages, Frameworks and Tools:</strong></p>
+  <p>Approximately two years experience working within Cyber Security for the defence industry, developing various software applications within Agile Scrum development teams. Completed the Women in Cyber Acadmeny (WiCA) for the first 3 months with <a href="https://www.qa.com/">QA Ltd - Bristol</a>.</p>
+  <p>Over six years of commericial experience in UX Design, Responsive Web Design with <a href="https://www.w3.org/standards/webdesign/accessibility">website accessibility</a> and usability. Also, Graphic Design creating the design and print ready artwork files of a wide range of products using various <a href="https://www.adobe.com/uk/creativecloud.html">Adobe packages</a>.</p>
+  <h4><strong>Languages, Frameworks and Tools:</strong></h4>
 
-    <table cellspacing="10">
+    <table cellspacing="3">
       <tr>
         <td>
           <table cellspacing="10">
@@ -139,10 +137,6 @@ To create a gap between img and text I need to add some cellspacing to the table
               <td>⭐️⭐⭐️</td>
             </tr>
             <tr>
-              <td>Git distributed version control</td>
-              <td>⭐️⭐️⭐️</td>
-            </tr>
-            <tr>
               <td>Docker container platform</td>
               <td>⭐️⭐️</td>
             </tr>
@@ -170,6 +164,7 @@ To create a gap between img and text I need to add some cellspacing to the table
         <thead>
           <tr>
             <th>Dates</th>
+            <th>Job Title</th>
             <th>Company</th>
             <th>Type</th>
           </tr>
@@ -178,17 +173,20 @@ To create a gap between img and text I need to add some cellspacing to the table
       <tbody>
         <tr>
           <td>June 2019 - May 2021</td>
-          <td>Software Engineer at Raytheon UK</td>
-          <td>Full-time and permanent</td>
+          <td>Software Engineer</td>
+          <td>Raytheon UK</td>
+          <td>Full-time, permanent</td>
         </tr>
         <tr>
           <td>Jan - May 2019</td>
-          <td>Graphics/UX Designer at Law Design & Print</td>
-          <td>Full-time and permanent</td>
+          <td>Graphics/UX Designer</td>
+          <td>Law Design & Print</td>
+          <td>Full-time, permanent</td>
         </tr>
         <tr>
           <td>Jan 2011-Jan 2019</td>
           <td>Graphics and UX Designer</td>
+          <td>Various Clients</td>
           <td>Freelance & Voluntary</td>
         </tr>
 

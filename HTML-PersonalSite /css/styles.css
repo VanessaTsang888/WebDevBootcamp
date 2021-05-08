@@ -5,19 +5,23 @@
 
 body { 
     background-color: #EAF6F6;
-    padding: 20px;
+    padding: 60px;
+    line-height: 1.6;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    color: #40514e;
    }
 
 h1 {
-    color: #66BFBF;
+    color: #11999e;
    }
 
 h3 {
-    color: #00adb5;
+    color: #11999e;
    }
 
    h4 {
-    color: #00adb5;
+    color: #11999e;
    }
 
 hr {
@@ -36,18 +40,53 @@ form {
     padding: 20px;
    }
 
+   table, th, td {
+     padding: 20;
+     margin: 10;
+
+   }
+
 td {
-    border: none;
-    padding: 10px;
-    margin: 8;
+    border: 2px;
+    padding-right: 12px;
+    margin: 10;
 }
+
+table, th, td {
+  border: 2px none;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+/* Make this profile pic element to relative positioning so that it don't affect other elements of the screen */
+.proPic {
+  position: relative;
+  left: 20px;
+  top: 0px;
+}
+
+/* Take the personal details (i.e. name, job title etc) from left of the screen and move it up by 350px so it sits next to the profile pic or image but 10px space from it */
+.perDetails {
+  position: absolute;
+  left: 350px;
+  bottom: 10px;
+}
+
 
 .atlassian {
     font-family: charlie sans display;
     font-size: 15pt;
     font-weight: bolder;
-    color: #0146b3;
+    color: #0052CC;
 }
+
+.jobTitle {
+  font-size: 22pt;
+}
+
 
 input[type=text], [type=email], [type=tel], [type=yourMessage] {
     width: 100%;
@@ -61,7 +100,7 @@ input[type=text], [type=email], [type=tel], [type=yourMessage] {
 
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #11999e;
     color: white;
     padding: 14px 20px;
     margin: 0px;
@@ -72,14 +111,10 @@ input[type=submit] {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #40514e;
   }
 
-  div {
-    border-radius: 5px;
-    background-color: white;
-    padding: 20px;
-  }
+
 
 
 
