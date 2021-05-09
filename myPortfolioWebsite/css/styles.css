@@ -1,7 +1,3 @@
-body {
-    margin: 0;
-    text-align: center;
-}
 
 /* 
 To center an element:
@@ -11,58 +7,176 @@ The top and bottom needs to be 0, the left and right needs to be auto (circle sh
  */
 
  body {
+     color: #40514e;
+     font-size: 15pt;
      margin: 0;
      text-align: center;
      font-family: 'Merriweather', serif;
  }
 
 h1 {
-    margin-top: 0;
+    font-size: 58pt;
+    color: #11999e;
+    margin: 50 auto 0 auto ;
     font-family: 'Sacramento', cursive;
 }
 
 h2 {
+    font-weight: normal;
+    line-height: 2;
     font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+    padding-bottom: 10px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999e;
 }
 
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #c4c9c9 8px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+
+
+}
+
+
+.btn {
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        padding: 40px;
+        background-color: #11999E;
+        -webkit-box-shadow: 1px 1px 20px 0 #000000;
+        -moz-box-shadow: 1px 1px 20px 0 #000000;
+        box-shadow: 1px 1px 20px 0 #000000;
+        text-shadow: 1px 1px 20px #000000;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+     }
+     
+     .btn:hover {
+        background: #40514E;
+        border: solid #40514E 1px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        text-decoration: none;
+     }
+
 .top-container {
-    background-color: #d6efc7;
+    background-color: #d1e4b8;
     position: relative;
     padding-top: 100px;
 }
 
 .middle-container {
-    background-color: red;
-    width: 200px;
-    height: 200px;
+    margin: 100px 0;
 }
+
 
 /* This is the parent */
 .bottom-container {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
+    background-color: #11999e;
+    padding: 50px 0 20px;
 }
+
+.skill-row {
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+/*
+.footer-link {
+    color: white;
+}
+*/
+
+a {
+    color: #86e6d9;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e4f9f5;
+}
+
+
+.proPic {
+    width: 200px;
+}
+
+.se-icon {
+    width: 250px;
+    margin-right: 30px;
+    float: left;
+}
+
+.icon-js {
+    width: 18%;
+    float: right;
+    margin-left: 30px;
+}
+
+/*
+.code-skill-description {
+    clear: left;
+}
+
+.js-skill-description {
+    clear: right;
+}
+*/
 
 .cyber {
     text-decoration: underline;
+}
+
+/*  Change the width of the text contain to only 30% to its parent container */
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+/* Use the 3 element circle rule: top: 40, left & right: auto, bottom: 60.  */
+.contact-msg {
+    width: 50%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    color: #e4f9f5;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 /* Take this element out of its flow by changing it to absolute */
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 /* This will move the bottom cloud from next to the mountain to the middle-left of the screen */
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 

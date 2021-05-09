@@ -291,10 +291,43 @@ file:///Users/vanessatsanguk/Documents/code02/WebDevBootcamp/myPortfolioWebsite/
 
 
 51. Learn More About Typeography:
-
+Head Over to Design School 101 - Typography.
 
 
 52. Adding Conent to Our Website.
+
+Search for free icons for commerical use with adequate attribution:
+https://www.flaticon.com/
+
+53. CSS Sizing:
+
+Can use:
+em, pt, px.
+css3: rem -> font-size: 5.62rem
+
+Dynamic font sizing.
+
+54. Font Properties Challenge 1 - Change the Font Color:
+
+
+55. Font Properties Challenge 1 - Change the Font Weight:
+
+
+58. CSS Float and Clear:
+
+Only use float when really need to, wrap text around certain element, don't use it for positioning. 
+
+59. CSS Challenge:
+
+60. Stylised Personal Site Solution Walkthrough:
+
+I have changed text style and positioning.
+Created a button using the css button creator site:
+https://cssbuttoncreator.com/
+
+Added a footer and styled the links inside it to add on-hover etc.
+
+
 
 
 
